@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <input type="text" id="inputTemperature" placeholder="Enter temperature">
+        <label for="from">From:</label>
+        <select id="inputUnit">
+            <option value="Celsius">Celsius</option>
+            <option value="Kelvin">Kelvin</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+        </select>
+
+        <input type="text" id="outputTemperature" placeholder="Converted temperature" disabled>
+        <label for="to">To:</label>
+        <select id="outputUnit">
+            <option value="Celsius">Celsius</option>
+            <option value="Kelvin">Kelvin</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+        </select>
+        <button onclick="convertTemperature()">Convert</button>
+        <button onclick="resetTemperature()">Reset</button>
+        <button onclick="clearTemperature()">Clear</button>
+    </div>
+
+</body>
+&nbsp;
+<footer> Temperature Converter By Sakshi Narad <a href="https://www.linkedin.com/in/sakshi-narad-4784a6256">
+    @sakshi-narad</a>&nbsp;&nbsp;&nbsp;&nbsp;
+ For more codes &nbsp; <a href="https://github.com/SakshiNarad"> SakshiNarad</a> </footer>
+
+<script src="temp.js"></script>
+
+</html>

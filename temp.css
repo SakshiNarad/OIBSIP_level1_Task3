@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: url("temp.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    background: transparent;
+    width: 500px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    margin: 180px auto 80px;
+    border-style: double;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 4vh;
+    background: transparent;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+#inputTemperature {
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    color: #05161A;
+    border: 2px solid #1D1A39;
+    border-radius: 0 10px 0 10px;
+    margin: 10px;
+    font-size: 2vh;
+
+
+}
+
+::placeholder {
+    color: #05161A;
+    font-size: 2vh;
+}
+
+label {
+    width: 10px;
+    background: transparent;
+    color: #000;
+    font-size: 2vh;
+}
+
+#inputUnit {
+
+    background: transparent;
+    color: #05161A;
+
+}
+
+option {
+    background: #1D1A39;
+    color: #FFA586;
+    border: 2px solid #1D1A39;
+}
+
+#outputTemperature {
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    color: #05161A;
+    border: 2px solid #1D1A39;
+    border-radius: 0 10px 0 10px;
+    margin: 10px;
+    font-size: 2vh;
+
+
+}
+
+::placeholder {
+    color: #05161A;
+    font-size: 2vh;
+}
+
+label {
+    width: 10px;
+    background: transparent;
+}
+
+#outputUnit {
+    background: transparent;
+    color: #05161A;
+
+}
+
+option {
+    background: #1D1A39;
+    color: #FFA586;
+    border: 2px solid #1D1A39;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin: 5px;
+    border: 2px solid #FFA586;
+    border-radius: 10px 0 10px 0;
+    box-shadow: #C38EB4;
+}
+
+button:hover {
+    background: #2B124C;
+    color: #C38EB4;
+    
+}
+footer{
+    display: flex;
+    background: transparent;
+    color: white;
+   
+}
+a{
+    background: transparent;
+    color: navy;
+}
